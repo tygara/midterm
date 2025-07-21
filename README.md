@@ -10,6 +10,8 @@ curves.
 
 ###  1.) Write an x86-compatible assembly code that calculates
 # result = (var1 + 2) / (var3 - var2)
+[gdb](docs/register.png)
+[Register name&value](docs/register_graphic.jpg)
 For this problem, I repeatedly hit errors because I was overwriting the wrong registers 
 in my sys_write and sys_exit sequences, such as overwriting EAX instead of ECX for the 
 buffer. Once I understood that AX (AH:AL) behaves as a sixteen‑bit dividend, with AH 
@@ -19,7 +21,7 @@ code, and invoke write to print my result to the console.
 
 ### 2.) Using a K-map, simplify the following equation
 # Y = a.b + a'.b + a. b'
-[K-map chart](docs/flowchart.jpg)
+[K-map chart](docs/k_map_solution.jpg)
 At first I had to recall how a two by two K-map groups adjacent ones. By ploting the three
 minterms and boxing the bottom row where `a` equals one to get implicant `a` and the right 
 column where `b` equals one to get implicant `b` I saw from there how easily the enitre
