@@ -19,7 +19,7 @@ code, and invoke write to print my result to the console.
 
 ### 2.) Using a K-map, simplify the following equation
 # Y = a.b + a'.b + a. b'
-[K-map chart](docs/flowchart.jpg)
+[K-map chart](docs/k-map.jpg)
 At first I had to recall how a two by two K-map groups adjacent ones. By ploting the three
 minterms and boxing the bottom row where `a` equals one to get implicant `a` and the right 
 column where `b` equals one to get implicant `b` I saw from there how easily the enitre
